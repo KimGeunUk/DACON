@@ -31,18 +31,4 @@ Mvtec Ad Dataset 사용, 사물의 종류 분류 및 정상 샘플 비정상 샘
 - Fine Tuned timm tf_efficientnet_b7_ns
 - Image Size : 512
 - Image nomalization : mean = [0.43324712, 0.40364919, 0.39435242], std = [0.18257473, 0.17486729, 0.16405263]
-- Image Augmentation : 
-        A.Resize(opt.img_size, opt.img_size),
-        A.CLAHE(p=opt.percentage),
-        A.RandomBrightnessContrast(p=opt.percentage),
-        A.ColorJitter(p=opt.percentage),
-        A.RGBShift(p=opt.percentage),
-        A.RandomSnow(p=opt.percentage),
-        A.HorizontalFlip(p=0.5),
-        A.VerticalFlip(p=0.5),
-        A.RandomResizedCrop(height=opt.img_size, width=opt.img_size, p=opt.percentage),
-        A.ShiftScaleRotate(shift_limit=0.5, scale_limit=0.5, rotate_limit=0, interpolation=0, border_mode=4, p=opt.percentage),
-        A.Rotate(p=opt.percentage),
-        A.RandomRotate90(p=opt.percentage),    
-        A.Normalize(mean_train, std_train),
-        Apt.ToTensorV2(p=1.0),
+- Image Augmentation : CLAHE, RandomBrightnessContrast, ColorJitter, RGBShift, RandomSnow, HorizontalFlip, VerticalFlip, RandomResizedCrop, ShiftScaleRotate, RandomRotate90, Normalize
