@@ -32,3 +32,9 @@ Mvtec Ad Dataset 사용, 사물의 종류 분류 및 정상 샘플 비정상 샘
 - Image Size : 512
 - Image nomalization : mean = [0.43324712, 0.40364919, 0.39435242], std = [0.18257473, 0.17486729, 0.16405263]
 - Image Augmentation : CLAHE, RandomBrightnessContrast, ColorJitter, RGBShift, RandomSnow, HorizontalFlip, VerticalFlip, RandomResizedCrop, ShiftScaleRotate, RandomRotate90, Normalize
+- Epochs : 70
+- lr : 2e-4
+- loss : CrossEntropyLoss, label_smoothing=0.1
+- optimizer : AdamW
+- scheduler : get_cosine_schedule_with_warmup
+- Cutmix
