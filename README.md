@@ -11,5 +11,14 @@ DACON
 - 참가 대상
 일반인, 학생, 직장인 등 누구나
 
-https://dacon.io/competitions/official/235894/overview/description
+[DACON](https://dacon.io/competitions/official/235894/overview/description)
+
+- 리더보드 PRIVATE 16th, 0.87786 (16/481, 3.5%) 
+
+<hr/>
+
+## Development Environmnet
+- Window 10 & Colab
+- GTX 1650 Ti
+
 
