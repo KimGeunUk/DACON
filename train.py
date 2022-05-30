@@ -133,7 +133,7 @@ if __name__=='__main__':
     wandb.init(project="sign_language-classification",
             group="local",
             name=f'{args.model}_{args.batch_size}_{args.img_size}_{args.learning_rate}',
-            entity="kgw5430")       # 181acb831adde2210eae1618f343dfe466026445
+            entity="")       
     
     os.chdir(os.path.dirname(os.path.realpath(__file__)))
     
