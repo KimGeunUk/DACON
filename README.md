@@ -1,6 +1,6 @@
 # DACON 건설기계 오일 상태 분류 AI 경진대회
 
-## DACON
+## [DACON](https://dacon.io/competitions/official/236013/overview/description)
 
 #### [배경]
 건설기계 분야의 데이터를 분석, 활용하는 방안을 제시하는 경진대회를 개최하여 참신한 아이디어를 발굴하고 해당 분야의 인공지능 기술의 발전을 도모하려 합니다.
@@ -19,3 +19,14 @@
 후원 : AWS
 주관 : 데이콘
 
+## Development Environmnet
+- Ubuntu 18.04
+- GTX 3090 1EA
+- Jupyter Notebook
+
+
+## Solution
+- Teacher : XGBClassifier, LGBMClassifier, CatBoostClassifier Ensemble (Soft Voting)
+- Student : XGBRegressor, LGBMRegressor, CatBoostRegressor Ensemble (Soft Voting)
+- Find Best Parameters : Optuna
+- 영향력 적은 20개의 Columns 제거
