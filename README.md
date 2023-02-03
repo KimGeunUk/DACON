@@ -35,7 +35,7 @@
   
   <div align="right">              
    <p> Test 데이터 </p>
-   <img src="https://user-images.githubusercontent.com/74355042/216530615-587f7e44-1b4e-4cf7-8dc9-1b4d64a32d2b.jpg" align="right" width="300px" height="300px">
+   <img src="https://user-images.githubusercontent.com/74355042/216530615-587f7e44-1b4e-4cf7-8dc9-1b4d64a32d2b.jpg" width="300px" height="300px">
   </div>
 </div>
 
