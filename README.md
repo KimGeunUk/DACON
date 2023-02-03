@@ -40,6 +40,11 @@
 </div>
 
 Train, Test 데이터의 차이점으로 Train 데이터에는 배경이 존재하지 않음 </br>
--> 배경 데이터를 구하여 Train 데이터와 합성 후 학습 진행
+-> 배경 데이터를 구하여 Train 데이터와 이미지 합성 후 학습 진행 (Check Data & Augmentation.ipynb 파일)
+
+이후 Train (train_baseline.ipynb 파일)
+
+
+
 
 
