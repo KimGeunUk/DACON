@@ -26,11 +26,11 @@
 
 # 나의 접근
 
-- Train 데이터
-  <img src="https://user-images.githubusercontent.com/74355042/216530539-a710d59d-9e5b-4777-86c8-eac0e6a14e31.jpg" align="left" width="300px" height="300px">
+Train 데이터 Test 데이터
 
-- Test 데이터
-![TEST_00606](https://user-images.githubusercontent.com/74355042/216530615-587f7e44-1b4e-4cf7-8dc9-1b4d64a32d2b.jpg)
+<img src="https://user-images.githubusercontent.com/74355042/216530539-a710d59d-9e5b-4777-86c8-eac0e6a14e31.jpg" align="left" width="300px" height="300px">
+
+<img src="https://user-images.githubusercontent.com/74355042/216530615-587f7e44-1b4e-4cf7-8dc9-1b4d64a32d2b.jpg" align="right" width="300px" height="300px">
 
 Train, Test 데이터의 차이점으로 Train 데이터에는 배경이 존재하지 않음
 -> 배경 데이터를 구하여 Train 데이터와 합성 후 학습 진행
