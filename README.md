@@ -40,7 +40,7 @@
 </div>
 
 ### Train, Test 데이터의 차이점으로 Train 데이터에는 배경이 존재하지 않음
-- 배경 데이터를 구하여 Train 데이터와 이미지 합성 후 학습 진행 
+- 배경 데이터를 구하여 Train 데이터와 이미지 합성 후 학습 진행 (score가 0.84에서 0.89로 증가)
 - Check Data & Augmentation.ipynb
 
 ### Train 
