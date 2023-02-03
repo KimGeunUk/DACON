@@ -29,8 +29,8 @@
  
 <div>
   <div align="left">
-  <p> Train 데이터 </p>
-  <img src="https://user-images.githubusercontent.com/74355042/216530539-a710d59d-9e5b-4777-86c8-eac0e6a14e31.jpg" width="300px" height="300px">
+   <p> Train 데이터 </p>
+   <img src="https://user-images.githubusercontent.com/74355042/216530539-a710d59d-9e5b-4777-86c8-eac0e6a14e31.jpg" width="300px" height="300px">
   </div>
   
   <div align="right">              
