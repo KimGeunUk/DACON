@@ -4,3 +4,7 @@
 
 ## [실험 결과](https://geunuk.tistory.com/408)
 
+## Files
+- EDA & Split target : 간단한 EAD와 label별로 data split
+- Pesduo Labeling
+- train_CE-W-T : Crash & ego-involve, weather, timing Train
